@@ -14,7 +14,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .bg-custom {
+    background-color: #D596BC !important;
+  }
   
+  .custom-text-color {
+    color: #6F405D !important;
+  }
   
   /* Responsive Features */
   
