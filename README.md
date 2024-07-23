@@ -64,8 +64,11 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ```
 
 ## 💡 Usage and Installation Instructions
+✨ **Using Render:**
 
-**Using the GitHub Repository:**
+[Skin Script Website]()
+
+✨ **Using the GitHub Repository:**
 
 1.  Provide your login credentials in the `.env` file.
 2.	Launch an integrated terminal directly from your editor.
