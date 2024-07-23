@@ -94,7 +94,7 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ![](./public/images/skin-script-page.png) 
 
 **Click on the links below**
-- [Skin Script Walkthrough on RENDER]()
+- [Skin Script Walkthrough Online](https://youtu.be/dgPtmYfc0CA?si=0xzJU4JTEuUCRSNv)
 - [Skin Script Walkthrough on VSCode Terminal](https://youtu.be/CzJhI3zgElo?si=S_sD1Bab0NLE6KhS)
 
 ## 🗝️ Resources
