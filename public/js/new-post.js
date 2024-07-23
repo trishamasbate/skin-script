@@ -1,9 +1,9 @@
 // Create new post public/js/new-post.js
-const newChessPostFormHandler = async (event) => {
+const newSkinPostFormHandler = async (event) => {
     event.preventDefault();
   
-    const title = document.querySelector('#title-new-chess-post').value.trim();
-    const content = document.querySelector('#content-new-chess-post').value.trim();
+    const title = document.querySelector('#title-new-skin-post').value.trim();
+    const content = document.querySelector('#content-new-skin-post').value.trim();
   
     if (title && content) {
       const response = await fetch('/api/posts', {
@@ -21,8 +21,8 @@ const newChessPostFormHandler = async (event) => {
   };
   
   // Event listeners
-  const newChessPostForm = document.querySelector('.new-chess-post-form');
-  if (newChessPostForm) {
-    newChessPostForm.addEventListener('submit', newChessPostFormHandler);
+  const newSkinPostForm = document.querySelector('.new-skin-post-form');
+  if (newSkinPostForm) {
+    newSkinPostForm.addEventListener('submit', newSkinPostFormHandler);
   }
   

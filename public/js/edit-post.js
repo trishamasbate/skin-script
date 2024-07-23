@@ -4,12 +4,12 @@ const post_id = window.location.toString().split("/")[
   ];
   
   // Update the post
-  const updateChessPostFormHandler = async (event) => {
+  const updateSkinPostFormHandler = async (event) => {
     event.preventDefault();
   
-    const title = document.querySelector("#title-update-chess-post").value.trim();
+    const title = document.querySelector("#title-update-skin-post").value.trim();
     const content = document
-      .querySelector("#content-update-chess-post")
+      .querySelector("#content-update-skin-post")
       .value.trim();
   
     if (title && content) {
@@ -28,7 +28,7 @@ const post_id = window.location.toString().split("/")[
   };
   
   // Delete the post
-  const deleteChessPostFormHandler = async (event) => {
+  const deleteSkinPostFormHandler = async (event) => {
     event.preventDefault();
   
     const response = await fetch(`/api/posts/${post_id}`, {
@@ -43,15 +43,15 @@ const post_id = window.location.toString().split("/")[
   };
   
   // Event listeners
-  const updateChessPostButton = document.querySelector("#update-chess-post");
+  const updateSkinPostButton = document.querySelector("#update-skin-post");
   
-  if (updateChessPostButton) {
-    updateChessPostButton.addEventListener("click", updateChessPostFormHandler);
+  if (updateSkinPostButton) {
+    updateSkinPostButton.addEventListener("click", updateSkinPostFormHandler);
   }
   
-  const deleteChessPostButton = document.querySelector("#delete-chess-post");
+  const deleteSkinPostButton = document.querySelector("#delete-skin-post");
   
-  if (deleteChessPostButton) {
-    deleteChessPostButton.addEventListener("click", deleteChessPostFormHandler);
+  if (deleteSkinPostButton) {
+    deleteSkinPostButton.addEventListener("click", deleteSkinPostFormHandler);
   }
   

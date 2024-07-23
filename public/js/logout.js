@@ -1,5 +1,5 @@
 // Logout function to send request to log out the user
-const chessLogout = async () => {
+const skinLogout = async () => {
     const response = await fetch('/api/users/logout', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -12,8 +12,8 @@ const chessLogout = async () => {
     }
   };
   // Add an event listener to the logout button
-  const chessLogoutButton = document.querySelector('#chess-logout');
-  if (chessLogoutButton) {
-    chessLogoutButton.addEventListener('click', chessLogout);
+  const skinLogoutButton = document.querySelector('#skin-logout');
+  if (skinLogoutButton) {
+    skinLogoutButton.addEventListener('click', skinLogout);
   }
   

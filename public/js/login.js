@@ -1,9 +1,9 @@
 // Handler function for chess login form submission
-const chessLoginFormHandler = async (event) => {
+const skinLoginFormHandler = async (event) => {
     event.preventDefault();
     // Get the values of the username and password input fields
-    const username = document.querySelector('#username-chess-login').value.trim();
-    const password = document.querySelector('#password-chess-login').value.trim();
+    const username = document.querySelector('#username-skin-login').value.trim();
+    const password = document.querySelector('#password-skin-login').value.trim();
     // If the input fields have values
     if (username && password) {
           // Send a POST request to the login endpoint with the input values as JSON data
@@ -23,8 +23,8 @@ const chessLoginFormHandler = async (event) => {
   };
   
   // Event listener for the chess login form
-  const chessLoginForm = document.querySelector('.chess-login-form');
-  if (chessLoginForm) {
-    chessLoginForm.addEventListener('submit', chessLoginFormHandler);
+  const skinLoginForm = document.querySelector('.skin-login-form');
+  if (skinLoginForm) {
+    skinLoginForm.addEventListener('submit', skinLoginFormHandler);
   }
   
