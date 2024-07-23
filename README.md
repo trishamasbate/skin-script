@@ -14,7 +14,7 @@
   - [🔎 User Story](#-user-story)
   - [✅ Acceptance Criteria](#-acceptance-criteria)
   - [💡 Usage and Installation Instructions](#-usage-and-installation-instructions)
-  - [🎞️ Walkthrough Videos:](#️-walkthrough-videos)
+  - [🎞️ Previews and Walkthrough Videos:](#️-previews-and-walkthrough-videos)
   - [🗝️ Resources](#️-resources)
   - [❓ Questions](#-questions)
   - [🪪 License](#-license)
@@ -88,11 +88,14 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 7.  Test the functionality of the application by using Render.
 
 
-## 🎞️ Walkthrough Videos:
+## 🎞️ Previews and Walkthrough Videos:
+
+**Preview**
+![](./public/images/skin-script-page.png) 
 
 **Click on the links below**
 - [Skin Script Walkthrough on RENDER]()
-- [Skin Script Walkthrough on VSCode Terminal]()
+- [Skin Script Walkthrough on VSCode Terminal](https://youtu.be/CzJhI3zgElo?si=S_sD1Bab0NLE6KhS)
 
 ## 🗝️ Resources
 - Dynamic JavaScript
