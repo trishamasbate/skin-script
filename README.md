@@ -66,7 +66,7 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ## 💡 Usage and Installation Instructions
 ✨ **Using Render:**
 
-[Skin Script Website]()
+[Skin Script Website](https://skin-script.onrender.com/)
 
 ✨ **Using the GitHub Repository:**
 
