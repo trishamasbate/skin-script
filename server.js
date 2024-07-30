@@ -6,14 +6,20 @@ const routes = require("./controllers");
 const sequelize = require("./config/connection");
 const exphbs = require("express-handlebars");
 const hbs = exphbs.create({ helpers: require("./utils/helpers") });
-// Creating express app and setting port
 
+// Creating express app and setting port
 const app = express();
 const PORT = process.env.PORT || 3001;
+
 // Setting up session object with secret, cookie, and store
 const sess = {
   secret: 'Super secret secret',
-  cookie: {},
+  cookie: {
+    maxAge: 1000 * 60 * 60 * 24, // 1 day
+    secure: false, // Cookie will be sent over HTTP and HTTPS
+    httpOnly: true, // Ensures the cookie is sent only over HTTP(S), not accessible via JavaScript
+    sameSite: 'strict', // Ensures the cookie is only sent for requests from the same site
+  },
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({
